@@ -1,0 +1,2 @@
+# Edura
+Studdy buddy website
