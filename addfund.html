@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/Users/pranav/Documents/VS Code/FREEMAT/paymentstyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+</head>
+<body>
+    <header>
+        <h4>FREEMAT</h4>
+        <h2>Desposit Funds</h2>
+    </header>
+    <main>
+        <section>
+            <br><br>
+            <em class="Name">Name</em>
+            <br><hr>
+            <br><br>
+        </section>
+        <section>
+            <p>Amount:</p><br>
+            <form action="" method="get">
+                <input type="text" name="Amount" id="Amount" placeholder="Enter amount" required>
+                <br><br>
+                <p>Payment Method</p><br>
+                <input type="radio" name="Payment_Method" id="Debit/Credit" class="radio" onclick="window.location='/Users/pranav/Documents/VS Code/FREEMAT/card.html';">    Debit/Credit <br>
+                <input type="radio" name="Payment_Method" id="NetBanking" class="radio" onclick="window.location='/Users/pranav/Documents/VS Code/FREEMAT/netbanking.html';">    NetBanking <br>
+            </form>
+        </section>
+    </main>
+
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 5px;
+}
+header{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+}
+header img{
+    height: 80px;
+    width: 80px;
+
+}
+header em{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 15px;
+}
+form{
+    width: 25%;
+}

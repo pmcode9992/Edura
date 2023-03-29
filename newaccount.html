@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="Newaccount.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account</title>
+</head>
+<body>
+    <header>
+        <img src="IMGS/LOGO.png" alt="Logo">
+        <em>Create New Account</em>
+    </header>
+    <main >
+        <br><br><br>
+        <hr>
+        <br>
+        <form action="connect.php" method="post">
+            <div class="mb-3">
+                <label for="FullName" class="form-label">Full Name</label><br>
+                <input type="text" class="form-control" name="user_name" id="FullName" aria-describedby="FullName"><br>
+                <label for="Gender" class="form-label">Gender</label><br>
+                <div class="form-check">
+                    &nbsp;
+                    <input class="form-check-input" type="radio" name="Gender" id="Female" value="M">
+                    <label class="form-check-label" for="Gender">
+                      Male
+                    </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input class="form-check-input" type="radio" name="Gender" id="Female" value="F">
+                    <label class="form-check-label" for="Gender">
+                      Female
+                    </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input class="form-check-input" type="radio" name="Gender" id="Other" value="O">
+                    <label class="form-check-label" for="Gender">
+                      Other
+                    </label>
+                  </div><br>
+                  <label for="FullName" class="form-label">Mobile Number</label><br>
+                <input type="text" class="form-control" id="Mobile" aria-describedby="Mobile" name="Mobile"><br>
+                <label for="FullName" class="form-label">Email Address</label><br>
+                <input type="email" class="form-control" id="Email" aria-describedby="Email" name="Email"><br>
+                <label for="FullName" class="form-label">Registration Number</label><br>
+                <input type="text" class="form-control" id="Registration" aria-describedby="Registration" name="Registration"><br>
+                <label for="FullName" class="form-label">CGPA</label><br>
+                <select class="form-select" aria-label="CGPA" name="CGPA">
+                    <option selected>Select Option</option>
+                    <option value="below 5"></option>
+                    <option value="5-6">5-6</option>
+                    <option value="6-7">6-7</option>
+                    <option value="7-8">7-8</option>
+                    <option value="8-9">8-9</option>
+                    <option value="9-10">9-10</option>
+                  </select><br><br>
+                  <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>    
+    
+</body>
+</html>
